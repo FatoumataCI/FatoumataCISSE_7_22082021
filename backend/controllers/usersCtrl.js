@@ -42,6 +42,7 @@ exports.signup = async(req, res, next) => {
                         where: { email: email }
                     })
                     .then(function(userFound) { // userFound sera le prochain paramètre
+                        console.log(userFound);
                         done(null, userFound);
                     })
                     .catch(function(err) {

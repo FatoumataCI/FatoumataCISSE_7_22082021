@@ -8,9 +8,9 @@ const sequelize = new Sequelize({
 
     user: 'root',
 
-    password: 'maman94',
+    password: '',
 
-    database: 'groupomania_development',
+    database: '',
 
     dialect: "mysql"
 

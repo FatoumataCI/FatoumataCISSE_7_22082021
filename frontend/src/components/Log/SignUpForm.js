@@ -33,7 +33,7 @@ const SignUpForm = () => {
     } else {
       await axios({
         method: "post",
-        url: `${process.env.REACT_APP_API_URL}api/user/register`,
+        url: `${process.env.REACT_APP_API_URL}api/users/signup`,
         data: {
           pseudo,
           email,
